@@ -14,7 +14,7 @@ public class PrintName {
     	System.out.print("Enter The Name : ");
     	String name = sc.nextLine(); 
     	String name1 = name.toUpperCase();
-    	//System.out.println(name1);
+//        System.out.println(name1);
        new PrintName().printName(name1,row,col);
         
     }
