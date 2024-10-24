@@ -10,6 +10,7 @@ public class AnagramOfString {
     String s1 = sc.next();
     System.out.println("Enter the second String");
     String s2 = sc.next();
+   
     
     for(int i=0;i<s1.length();i++) {
     	arr[s1.charAt(i)-'a']++;

@@ -6,7 +6,8 @@ public class PanagramOfString {
 public static void main(String[] args) {
 	int arr[] = new int [26];
 	System.out.println("Enter the String");
-	String s = new Scanner(System.in).next();
+	String s1 = new Scanner(System.in).next();
+	String s = s1.toLowerCase();
 	for(int i=0;i<s.length();i++) {
 		arr[s.charAt(i)-'a']++;
 	}

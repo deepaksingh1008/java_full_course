@@ -18,7 +18,6 @@ public class ImplementationOfTrim {
 		}
 		return s.substring(i,j+1);
 	}
-	
 	public static String RemoveAllWhiteSpace(String s) {
 		if(s.length()==0) {
 			System.out.println("String is empty");
